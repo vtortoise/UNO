@@ -1,0 +1,48 @@
+<html>
+
+
+<head>
+	<title>HOME</title>
+	<link rel="icon" href="src/images/UNO_Logo.png" type="image/x-icon">
+	<link rel="stylesheet" href="src/style.css">
+</head>
+
+
+<body>
+	<nav class="banner">
+		<a href="#home" class="barButton">HOME</a>
+		<a href="#leaderboard" class="barButton">LEADERBOARD</a>
+		<a href="#rules" class="barButton">RULES</a>
+	</nav>
+
+	<div class="display-container bg-image-1" id="home">
+		<br>
+	</div>
+
+	<div class="container" id="leaderboard">
+		<iframe style="background: #21313C;border: none;border-radius: 2px" width="320" height="240" src="https://charts.mongodb.com/charts-project-0-xlnfv/embed/charts?id=63356782-5242-44a0-877c-ffa7667e4cc5&maxDataAge=3600&theme=dark&autoRefresh=true"></iframe>
+		<iframe style="background: #21313C;border: none;border-radius: 2px" width="320" height="240" src="https://charts.mongodb.com/charts-project-0-xlnfv/embed/charts?id=6336f4a4-32b3-419a-87a2-07fb04ef3ead&maxDataAge=3600&theme=dark&autoRefresh=true"></iframe>
+	</div>
+
+	<div class="container" id="rules">
+		<h1>Rules for scrubs</h1>
+		<p>If play 1, next person play 1 or draw 2.</p>
+		<p>If play two 2s, place half of hand - rounded down - effects from top card are active.</p>
+		<p>If play 3, next player draws 3 or stacks another 3.</p>
+		<p>If play 4, can play any other card afterwards.</p>
+		<p>If play 5, can play any other card of the same color afterwards</p>
+		<p>If play 7, can choose to swap hands with anyone else, unless they also play a 7.</p>
+		<p>If play 8, next player swaps hands with anyone except origin of 8, unless they play an 8.</p>
+		<p>Can use reverse card to reverse effects of a card, must be of the same color.</p>
+		<p>Can use block card to prevent the effects of the previous card, must be of the same color.</p>
+		<p>Can stack a +2 card ontop of a +4 card aslong as it matchest he previously chosen color.</p>
+		<p>Can play a card at any time after someone has stopped stacking if your card is identicle to the top card.</p>
+		<p>If you do not abide by the rules and are called out for it, you must draw 2.</p>
+		<p>If you have only 1 card, you must call "uno" or draw 2 cards if someone calls you out on it.</p>
+		<p>Any fraugilent plays are punished by drawing 2 cards.</p>
+	</div>
+
+</body>
+
+
+</html>
